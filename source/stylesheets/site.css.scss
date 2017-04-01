@@ -40,6 +40,17 @@ header {
 
   }
 
+  .welcome-text {
+    font-family: 'roboto';
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 3em;
+  }
+
+    .jumbo-text {
+      font-size: 1.7em;
+    }
+
   .cta-work {
     color: #fff;
     text-decoration: none;
@@ -69,8 +80,12 @@ header {
 
 .background {
   background: #424242;
-  width: 100% !important; height: 17em;
-  padding: 15px 0;
+  max-width: 100% !important; height: auto;
+  padding: 1.5rem 3rem;
+}
+
+.social {
+  text-align: right;
 }
 
 
