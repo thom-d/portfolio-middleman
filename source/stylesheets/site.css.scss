@@ -40,7 +40,7 @@ header {
 
   }
 
-  .welcome-text {
+  .text-intro {
     font-family: 'roboto';
     font-size: 1.2em;
     font-weight: 400;
@@ -78,11 +78,26 @@ header {
   padding: 15px 0; margin: 2.5em 2.5em;
 }
 
-.background {
+.about {
+  text-align: left;
   background: #424242;
   max-width: 100% !important; height: auto;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 5rem; margin: 0 auto;
 }
+
+  .container-about {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .text-about, p {
+    line-height: 30px;
+    max-width: 800px;
+  }
+
 
 .social {
   text-align: right;
