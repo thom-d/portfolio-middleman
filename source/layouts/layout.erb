@@ -9,11 +9,11 @@
     <title><%= current_page.data.title || "Middleman" %></title>
     <%= stylesheet_link_tag "normalize" %>
     <%= stylesheet_link_tag "site" %>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,600" rel="stylesheet">
     <%= javascript_include_tag "site" %>
   </head>
   <body>
     <%= yield %>
     <%= partial "footer" %>
-
   </body>
 </html>

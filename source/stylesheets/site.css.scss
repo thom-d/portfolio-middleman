@@ -1,13 +1,16 @@
+
 body {
   background-color: #fff;
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+    "Quicksand", "Helvetica Neue", "Helvetica",
+    "Roboto", "Noto", "Lato", "Raleway", "Roboto Slab", sans-serif;
   padding: 0; margin: 0;
   text-align: center;
 }
+
+$main-text: 'Raleway', sans-serif;
+$sub-text: 'Roboto', sans-serif;
 
 a {
   color: #fff;
@@ -17,6 +20,8 @@ a {
     color: rgba(#000, 0.6);
   }
 }
+
+// NAVIGATION
 
 header {
   color: #4ECDC4;
@@ -29,22 +34,25 @@ header {
     padding-left: 1%;
   }
 
+// INTRO SECTION
+
 .landing {
   background: #1BA39C;
-  width: 100% !important; height: 40em;
+  width: 100%; height: 40em;
   padding: 15px 0;
 }
 
   .landing-container {
-    padding: 2rem;
-
+    padding: 10em 2rem;
+    margin: auto;
   }
 
   .text-intro {
-    font-family: 'roboto';
-    font-size: 1.2em;
-    font-weight: 400;
-    margin-bottom: 3em;
+    font-size: 1.3em;
+    font-family: $main-text;
+    font-weight: 300;
+    line-height: 2em;
+    margin-bottom: 4em;
   }
 
     .jumbo-text {
@@ -57,50 +65,73 @@ header {
     border: 1px solid #4ECDC4;
     max-width: 250px; height: auto;
     border-radius: 3px;
-    margin: auto; padding: 1% 0;
+    padding: 1% 0;
+    margin: auto; 
   }
+
+// PROJECT CONTENT SECTION
 
 .content-1 {
   outline: 2px solid #e0e0e0;
   height: 10rem;
-  padding: 15px 0; margin: 2.5em 2.5em;
+  padding: 15px 0; 
+  margin: 2.5em 2.5em;
 }
 
 .content-2 {
   outline: 2px solid #e0e0e0;
   height: 10rem;
-  padding: 15px 0; margin: 2.5em 2.5em;
+  padding: 15px 0; 
+  margin: 2.5em 2.5em;
 }
 
 .content-3 {
   outline: 2px solid #e0e0e0;
   height: 10rem;
-  padding: 15px 0; margin: 2.5em 2.5em;
+  padding: 15px 0; 
+  margin: 2.5em 2.5em;
 }
+
+// ABOUT SECTION
 
 .about {
   text-align: left;
   background: #424242;
-  max-width: 100% !important; height: auto;
-  padding: 1.5rem 5rem; margin: 0 auto;
+  max-width: 100%; height: auto;
+  padding: 1.5rem 5rem; 
+  margin: 0 auto;
 }
 
   .container-about {
     text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    line-height: 2em; 
+    letter-spacing: 0.3px;
+    margin: 0 auto;
+    max-width: 790px;
   }
 
-  .text-about, p {
-    line-height: 30px;
-    max-width: 800px;
+  .text-about {
+    font-family: $main-text;
+    font-weight: 300;
+  }
+
+  .text-quote {
+    font-size: 0.7em;
+    font-family: $sub-text;
+    font-weight: 300;
+  }
+
+  .text-about-detail {
+    font-family: $sub-text;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.5em;
+  }
+
+  .email {
+    font-size: 1.2em;
   }
 
 
-.social {
-  text-align: right;
-}
 
 
