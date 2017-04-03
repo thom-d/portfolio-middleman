@@ -9,15 +9,22 @@ my_list:
 <!---------- INTRO SECTION ---------->
 
 <div class="landing">
+<a name="home"></a>
 
 <!-- HEADER NAVIGATION -->
 
   <header>
-    <ol>
+    <!-- <ol>
       <% current_page.data.my_list.each do |f| %>
       <li><%= f %></li>
       <% end %>
-      </ol>
+      </ol> -->
+      <a href="#gallery" class="nav-item">featured work</a>
+      <a href="#about" class="nav-item">about</a>
+
+      <a href="https://drive.google.com/open?id=0B-xizpOQR7wrZ1NTUHVpYTJISGs" class="nav-item" target="_blank">resume
+      </a>
+
   </header>
 
 
@@ -31,12 +38,11 @@ my_list:
 </h1>
 
 <!-- CTA BUTTON -->
-
+<a name="gallery"></a>
 <div class="cta-work">
 <%= link_to(
   "Sample Projects",
-  "https://www.behance.net/dthomas",
-  target: "_blank"
+  "#gallery",
 ) %>
 </div>
 
@@ -70,6 +76,7 @@ my_list:
 <!---------- ABOUT SECTION ---------->
 
 <div class="about">
+<a name="about"></a> 
 
 <!-- CONTAINER START -->
 <div class="container-about">
@@ -103,6 +110,22 @@ my_list:
 </div>
 <!-- CONTAINER END -->
 
+</div>
+
+<!---------- FOOTER SECTION ---------->
+
+<footer>
+  <div class="footer-container">
+    <p class="copyright">&copy 2017 Dana Thomas</p> 
+
+    <a href="https://behance.net/dthomas" class="social-links" target="_blank">   
+      Behance
+    </a>
+    <a href="https://www.linkedin.com/in/dthomas014" class="social-links" target="_blank">
+      LinkedIn
+    </a>
+  </div>
+</footer>
 
 
   <!-- SITE CREATOR INFO --> 
@@ -114,8 +137,6 @@ my_list:
   Author URL: http://www.dnathoms.io/
   Tags: user interface, experience, visual design, web
   -->
-
-</div>
 
 
 

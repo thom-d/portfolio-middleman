@@ -9,16 +9,18 @@ body {
   text-align: center;
 }
 
+// SASS 
+
 $main-text: 'Raleway', sans-serif;
 $sub-text: 'Roboto', sans-serif;
+$link-color: #fff;
+$hover-color: #cf000f;
 
 a {
   color: #fff;
+  font-family: $sub-text;
+  font-weight: 300;
   text-decoration: none;
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
 }
 
 // NAVIGATION
@@ -26,12 +28,22 @@ a {
 header {
   color: #4ECDC4;
   text-align: right;
+  padding: 1em 0;
   margin: 0 2.5em;
 }
 
-  li {
+  .nav-item {
+    color: #4ECDC4;
     display: inline-block;
-    padding-left: 1%;
+    padding: 0;
+    margin-left: 16px;
+  }
+
+  .nav-item:hover {
+    border-bottom: 2px solid #fff;
+    transition: border 0.2s ease-in-out;
+    margin-bottom: -2px;
+    cursor: arrow;
   }
 
 // INTRO SECTION
@@ -52,6 +64,7 @@ header {
     font-family: $main-text;
     font-weight: 300;
     line-height: 2em;
+    letter-spacing: 0.3px;
     margin-bottom: 4em;
   }
 
@@ -98,7 +111,7 @@ header {
   text-align: left;
   background: #424242;
   max-width: 100%; height: auto;
-  padding: 1.5rem 5rem; 
+  padding: 2rem 5rem; 
   margin: 0 auto;
 }
 
@@ -131,6 +144,42 @@ header {
   .email {
     font-size: 1.2em;
   }
+
+  // FOOTER 
+
+footer {
+  color: #424242;
+  font-size: 0.9em;
+  font-family: $sub-text;
+  font-weight: 300;
+  background: #fff;
+  max-width: 100%; height: auto;
+  padding: 1.5rem 2.5rem 1em 2.5em; 
+  margin: auto;
+}
+  
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+
+
+  .social-links {
+    color: #424242;
+    margin-left: 1em;
+  }
+
+  .social-links:hover {
+    border-bottom: 2px solid #424242;
+    transition: border 0.2s ease-in-out;
+    margin-bottom: -1px;
+    cursor: arrow;
+  }
+
+
+
 
 
 
