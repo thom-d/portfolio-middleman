@@ -104,8 +104,9 @@ header {
   }
 
   .image {
+    background: url("https://img.buzzfeed.com/buzzfeed-static/static/2014-11/22/16/campaign_images/webdr04/the-most-impossible-game-of-would-you-rather-butt-2-28748-1416693280-4_dblbig.jpg");
     max-width: 100%; height: 60%;
-    background-color: orange;
+    background-size: cover;
     background-blend-mode: overlay;
     border-radius: 3px 3px 0 0;
     padding: 0;
@@ -113,13 +114,13 @@ header {
   }
 
   .card-title {
-    color: #424242;
+    color: #fff;
     font-family: $main-text;
     font-size: 1.2em;
-    background-color: #ccc;
+    background-color: #424242;
     width: 100%;
     font-weight: 300;
-    padding: 0.5em 0; 
+    padding: 0.8em 0 0.9em 0; 
     margin-bottom: 1em;
   }
 
