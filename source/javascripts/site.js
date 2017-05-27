@@ -4,14 +4,14 @@
 
 $(document).ready(function() {
 
+// Introduction text/cta - fades in during page load. 
 
 $(".text-intro, .jumbo-text, .cta-work").hide().fadeIn(2000);
 
 
-// Portfolio and Contact links should smooth scroll to their correct paths
+// "Featured Work" and "About" links 
+// On click scrolls down to portfolio gallery and about section
 
-// Navigation bar links  -- "featured work" and "contact" 
-// Featured Work button
 $(".my-gallery").click(function(e){
   e.preventDefault();
   $('body, html').animate({scrollTop: $(".cards").offset().top}, 1500);    
@@ -22,13 +22,25 @@ $(".my-blurb").click(function(e){
   $('body, html').animate({scrollTop: $("footer").offset().top}, 1500);    
 });
 
-// Contact button
+// Call-To-Action
+// On click scrolls down to portfolio gallery
+
 $(".cta-work").click(function(e){
   e.preventDefault();
   $('body, html').animate({scrollTop: $(".cards").offset().top}, 1500);    
 });
 
 
+// Gallery Card
+// On hover, project title transitions to unique color
+
+$( ".blue-site" ).hover (function() {
+  	$( this ).css( "color", "blue" );
+  });
+
+
+// Return link/button
+// On click scrolls up to page header
 
 $(".btn-return").click(function(e){
   e.preventDefault();
