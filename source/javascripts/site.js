@@ -34,9 +34,11 @@ $(".cta-work").click(function(e){
 // Gallery Card
 // On hover, project title transitions to unique color
 
-$( ".blue-site" ).hover (function() {
-  	$( this ).css( "color", "blue" );
-  });
+// $( ".blue" ).hover (function() {
+//   	$( ".blue-site" ).css( "background-color", "blue" );
+// 		$( ".blue" ).mouseleave (function() {
+// 		$( ".blue-site" ).css( "background-color", "#424242" );
+//   });
 
 
 // Return link/button

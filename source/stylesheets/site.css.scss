@@ -112,7 +112,7 @@ header {
   }
 
   .image {
-    background: url("https://s-media-cache-ak0.pinimg.com/originals/04/12/d7/0412d7e527d756435641c7cfec0a9a1f.png");
+    background: #212121;
     max-width: 100%; height: 60%;
     background-size: cover;
     background-blend-mode: overlay;
@@ -120,6 +120,23 @@ header {
     padding: 0;
     margin: 0;
   }
+
+    .pnc {
+      background: url("../images/pnc-web.png");
+      background-position: 50%;
+    }
+    .ebay {
+      background: url("../images/ebay-web.png");
+      background-position: 40%;
+    }
+    .wash {
+      background: url("../images/landing-web.png");
+      background-position: 50%;
+    }
+    .winc {
+      background: url("../images/winc-web.png");
+      background-position: 70%;
+    }
 
   .card-title {
     color: #fff;
