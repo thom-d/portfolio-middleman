@@ -21,8 +21,8 @@ my_list:
       <li><%= f %></li>
       <% end %>
       </ol> -->
-      <a href="#gallery" class="nav-item">featured work</a>
-      <a href="#about" class="nav-item">about</a>
+      <a href="#gallery" class="nav-item my-gallery">featured work</a>
+      <a href="#about" class="nav-item my-blurb">about</a>
 
       <a href="https://drive.google.com/open?id=0B-xizpOQR7wrZ1NTUHVpYTJISGs" class="nav-item" target="_blank">resume
       </a>
@@ -42,10 +42,7 @@ my_list:
 <!-- CTA BUTTON -->
 <!-- <a name="gallery"></a> -->
 <div class="cta-work">
-<%= link_to(
-  "View Featured Work",
-  "#gallery",
-) %>
+<a href="#gallery" class="cta-text">View My Work</a>
 </div>
 
 </div>
@@ -59,7 +56,7 @@ my_list:
 
   <a class="card" href="#">
     <div class="image"></div>
-    <div class="card-title">
+    <div class="card-title orange">
       PNC Virtual Wallet Refresh
     </div>
     <div class="card-summary">
@@ -69,7 +66,7 @@ my_list:
 
   <a class="card" href="#">
     <div class="image"></div>
-    <div class="card-title">
+    <div class="card-title yellow">
       eBAY Auction Page Redesign
     </div>
     <div class="card-summary">
@@ -79,7 +76,7 @@ my_list:
 
   <a class="card" href="#">
     <div class="image"></div>
-    <div class="card-title">
+    <div class="card-title blue">
       Landing Page Design
     </div>
     <div class="card-summary">
@@ -182,6 +179,9 @@ my_list:
     </a>
   </div>
 </footer>
+
+ <script src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script src="javascripts/site.js"></script>
 
 
   <!-- SITE CREATOR INFO --> 

@@ -86,6 +86,8 @@ header {
   .cta-work:hover {
     color: #1BA39C !important; 
     background: #4ECDC4;
+    transition: color 0.9s ease-in-out;
+    cursor: pointer;
   }
 
 // PROJECT CONTENT SECTION
@@ -109,7 +111,7 @@ header {
   }
 
   .image {
-    background: url("https://img.buzzfeed.com/buzzfeed-static/static/2014-11/22/16/campaign_images/webdr04/the-most-impossible-game-of-would-you-rather-butt-2-28748-1416693280-4_dblbig.jpg");
+    background: url("https://s-media-cache-ak0.pinimg.com/originals/04/12/d7/0412d7e527d756435641c7cfec0a9a1f.png");
     max-width: 100%; height: 60%;
     background-size: cover;
     background-blend-mode: overlay;
