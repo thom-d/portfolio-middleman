@@ -88,6 +88,9 @@ header {
     background: #4ECDC4;
     transition: color 0.9s ease-in-out;
     cursor: pointer;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
 
 // PROJECT CONTENT SECTION
@@ -154,7 +157,7 @@ header {
     color: #fff;
     font-family: $main-text;
     font-size: 1.2em;
-    background-color: #424242;
+    background-color: #363636;
     width: 100%;
     font-weight: 300;
     padding: 0.8em 0 0.9em 0; 
@@ -205,7 +208,7 @@ header {
 
 .about {
   text-align: left;
-  background: #424242;
+  background: #363636;
   max-width: 100%; height: auto;
   padding: 2rem 5rem 3rem 5rem; 
   margin: 0 auto;

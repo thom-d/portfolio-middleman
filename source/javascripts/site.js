@@ -37,10 +37,10 @@ $(".cta-work").click(function(e){
 var grid = ".card-title";
 
 $( ".card" ).hover (function() {
-		$( this ).children(".card-title").css( "background-color", "#B71C1C" );
+		$( this ).children(".card-title").css( "background-color", "#303030" );
   });
 $( ".card" ).mouseleave (function() {
-		$( this ).children(".card-title").css( "background-color", "#424242" );
+		$( this ).children(".card-title").css( "background-color", "#363636" );
   });
 
 
