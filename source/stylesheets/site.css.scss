@@ -126,16 +126,28 @@ header {
       background-position: 50%;
     }
     .ebay {
-      background: url("../images/ebay-web.png");
-      background-position: 40%;
+      background: url("../images/ebayux-web.png");
+      background-position: 50%;
     }
     .wash {
-      background: url("../images/landing-web.png");
+      background: url("../images/wash-web.png");
       background-position: 50%;
     }
     .winc {
       background: url("../images/winc-web.png");
       background-position: 70%;
+    }
+    .logo {
+      background: url("../images/sketch.svg");
+      background-color: #1BA39C;
+      background-repeat: no-repeat;
+      background-position: 50%;
+    }
+    .launch {
+      background: url("../images/code.svg");
+      background-color: #674172;
+      background-repeat: no-repeat;
+      background-position: 50%;
     }
 
   .card-title {
