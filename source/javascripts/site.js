@@ -37,7 +37,7 @@ $(".cta-work").click(function(e){
 var grid = ".card-title";
 
 $( ".card" ).hover (function() {
-		$( this ).children(".card-title").css( "background-color", "#303030" );
+		$( this ).children(".card-title").css( "background-color", "#2e2e2e" );
   });
 $( ".card" ).mouseleave (function() {
 		$( this ).children(".card-title").css( "background-color", "#363636" );

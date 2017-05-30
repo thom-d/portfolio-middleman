@@ -23,7 +23,7 @@ a {
   text-decoration: none;
 }
 
-// NAVIGATION
+// NAVIGATION --------------------------
 
 header {
   color: #4ECDC4;
@@ -46,7 +46,7 @@ header {
     cursor: arrow;
   }
 
-// INTRO SECTION
+// INTRO SECTION --------------------------
 
 .landing {
   background: #1BA39C;
@@ -93,7 +93,7 @@ header {
     box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
 
-// PROJECT CONTENT SECTION
+// PROJECT CONTENT SECTION --------------------------
 
 .cards {
   display: flex;
@@ -113,6 +113,8 @@ header {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   }
+
+// Card Unique Images and Structure
 
   .image {
     background: #212121;
@@ -153,13 +155,15 @@ header {
       background-position: 50%;
     }
 
+// End ----------------------------------
+
   .card-title {
     color: #fff;
     font-family: $main-text;
     font-size: 1.2em;
     background-color: #363636;
-    width: 100%;
     font-weight: 300;
+    width: 100%;
     padding: 0.8em 0 0.9em 0; 
     margin-bottom: 1em;
   }
@@ -169,6 +173,7 @@ header {
     font-family: $sub-text;
     font-weight: 300;
     text-align: left;
+    line-height: 23px;
     padding: 0 1em;
   }
 
@@ -185,7 +190,7 @@ header {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
 
-// RETURN BUTTON
+// RETURN BUTTON --------------------------
 
 .btn-return {
   margin: 0 0 3em 0; 
@@ -204,7 +209,7 @@ header {
     cursor: arrow;
   }
 
-// ABOUT SECTION
+// ABOUT SECTION --------------------------
 
 .about {
   text-align: left;
@@ -240,6 +245,8 @@ header {
     line-height: 1.5em;
   }
 
+  // Email Static and Hover States
+
   .email {
     font-size: 1.1em;
     border-bottom: 1px solid #fff;
@@ -253,7 +260,7 @@ header {
     cursor: arrow;
   }
 
-// FOOTER 
+// FOOTER --------------------------
 
 footer {
   color: #424242;
@@ -278,10 +285,28 @@ footer {
   }
 
   .social-links:hover {
-    border-bottom: 2px solid #424242;
+    border-bottom: 2px solid #B71C1C;
     transition: border 0.1s ease-in-out;
     margin-bottom: -1px;
     cursor: arrow;
+  }
+
+  @media (max-width: 640px) {
+
+    header {
+      text-align: center;
+    }
+
+    .nav-item {
+    margin: 0 8px;
+    }
+
+    .footer-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
   }
 
 
