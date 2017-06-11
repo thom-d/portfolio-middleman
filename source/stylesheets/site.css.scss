@@ -200,19 +200,21 @@ header {
 // RETURN BUTTON --------------------------
 
 .btn-return {
-  margin: 0 0 3em 0; 
+  margin: 6em 0 7em 0; 
 }
   .return {
-    color: #424242;
+    color: #fff;
     font-family: $sub-text;
     font-weight: 400;
+    background: #B71C1C;
+    height: 24px; width: 200px;
+    border-radius: 5px;
+    padding: 2em 1.5em;
   }
 
   .return:hover {
-    border-bottom: 2px solid #B71C1C;
-    transition: border 0.1s ease-in-out;
-    padding-bottom: 3px;
-    margin-bottom: -1px;
+    background: #C10B0B;
+    transition: 0.1s ease-in-out;
     cursor: arrow;
   }
 
