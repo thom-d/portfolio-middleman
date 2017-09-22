@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 // Introduction text/cta - fades in during page load. 
 
-$(".landing-intro, .button").hide().fadeIn("3000");
+$(".landing-intro, .button").hide().fadeIn("slow");
 
 
 // "Featured Work" and "About" links 
@@ -47,9 +47,9 @@ $(".button").click(function(e){
 // Return link/button
 // On click scrolls up to page header
 
-$(".btn-return").click(function(e){
+$(".return").click(function(e){
   e.preventDefault();
-  $('body, html').animate({scrollTop: $("landing").offset().top}, 1500);    
+  $('body, html').animate({scrollTop: $(".landing").offset().top}, 1500);    
 });  
 
 });
