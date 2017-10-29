@@ -5,8 +5,8 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
-activate :deploy do |deploy|
-deploy.method = :git
+# activate :deploy do |deploy|
+# deploy.method = :git
 #  deploy.branch = 'master'
 #  deploy.build_before = true
 end
